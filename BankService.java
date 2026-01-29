@@ -37,7 +37,7 @@ public class BankService {
         acc.deposit(700);
         System.out.println("Balance after deposit of 700: " + acc.getBalance());
 
-        acc.withdraw(500);
+        acc.withdraw(900);
         System.out.println("Balance after withdrawal of 100: " + acc.getBalance());
 
         System.out.println("Final Balance: " + acc.getBalance());
